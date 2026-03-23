@@ -1,0 +1,21 @@
+{
+  "name": "simple-mern",
+  "version": "1.0.0",
+  "description": "Simple MERN Monorepo Setup",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "build": "npm install && cd client && npm install && npm run build"
+  },
+  "keywords": [],
+  "author": "James Vickery",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.3.1"
+  }
+}
