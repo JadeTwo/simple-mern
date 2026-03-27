@@ -15,11 +15,12 @@ This one uses [Vite](https://vite.dev/) for the frontend and ES Module syntax in
 ### Development
 
 1. `npm run build` in the root directory
-2. Rename the `.env.example` file to `.env` and add your MongoDB connection string
+2. Rename the `.env.example` file to `.env` and add MONGO_URI for your database connection string
 3. `npm run dev` in the root directory 
 
 ### Production
 
 1. Deploy on [render](https://render.com/) as a Web Service
 2. Use `npm run build` as the Build Command
+3. Use `npm start` as the Start Command
 3. Add your MONGO_URI environment variable
